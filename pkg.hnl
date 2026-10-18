@@ -1,0 +1,2 @@
+-- lib-noise-stub: package manifest.
+{ modules: ["noise-stub"] }
