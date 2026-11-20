@@ -1,2 +1,2 @@
 -- lib-noise-stub: package manifest.
-{ modules: ["noise-stub"] }
+{ modules: ["noise-stub"], description: "Stub backend for the noise ports.", license: "MIT" }
