@@ -6,7 +6,7 @@
 
 [[repos]]
 name = "handl-lang/lib-noise-stub"
-dir = "/home/luis/GitHub/handl-lang/lib-noise-stub"
+dir = "~//GitHub/handl-lang/lib-noise-stub"
 branch = "refs/heads/main"
   [repos.runner]
   kind = "script"
