@@ -1,0 +1,11 @@
+--- noise-stub tests — the deterministic stub backend always returns
+--- `0.0` for every noise port.
+
+from "./index" import * as m
+
+test_perlin_1d_zero := assert m.perlin_1d(0.5) == 0.0
+test_perlin_1d_negative := assert m.perlin_1d(-3.25) == 0.0
+test_perlin_2d_zero := assert m.perlin_2d(1.5, -2.5) == 0.0
+test_perlin_3d_zero := assert m.perlin_3d(0, 1, 2) == 0.0
+test_simplex_2d_zero := assert m.simplex_2d(4.2, 9.1) == 0.0
+test_simplex_3d_zero := assert m.simplex_3d(1, 2, 3) == 0.0
